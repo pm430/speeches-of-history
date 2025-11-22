@@ -1,0 +1,121 @@
+[
+    {
+        "id": "kennedy-1961",
+        "title": "1961년 취임 연설",
+        "speaker": "존 F. 케네디",
+        "year": "1961",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBMoWTlVDGB3cQpHwfMLQSejbn17s-J4Sl-8nBrCBu6tcnt1UcDi0pFhV5XT03DNMZKPSPILQ2AyT8fUKiwA_VHc0pWf0R7iAueEqqJTQDbOaFk3zGQTT8czN-mpETxIS9ft78OoE6JFYVCGYo8tKfvsK0Ngmez2az1KQqo4RX2TYTdXMKnF7r29AiWhQkMvrYAAtM1KX23po9AfvuVkTP8CFKVausCfXZ6wx0fo5eJFcpaC8vGKAsWkB11W7Fxv-i1T7vxynec4Ic",
+        "languages": [
+            "kr",
+            "us",
+            "jp"
+        ],
+        "content": {
+            "kr": "국가가 여러분을 위해 무엇을 할 수 있는지 묻지 말고, 여러분이 국가를 위해 무엇을 할 수 있는지 물으십시오.",
+            "us": "Ask not what your country can do for you—ask what you can do for your country.",
+            "jp": "国があなたのために何をしてくれるかを問うのではなく、あなたが国のために何ができるかを問いなさい。"
+        }
+    },
+    {
+        "id": "reagan-1987",
+        "title": "베를린 장벽 연설",
+        "speaker": "로널드 레이건",
+        "year": "1987",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD23KkWV0tflv1PcaHdmRcD9ciDTL6jVm2zrJEO5GGnJJQu9qivYYZPwKZ7LcEX2zfWkyvKhQySmZGtYdS9fJMq-8yCANtYd2aClc82lp--3fO9G7u_-197bEJtKfkujwgvNfolfaev27yppBscOWpTZbDU8-ltR0s2_nNggeuCSYOp556GU2HXD-XSmK8QeLek_DqjbVMxmzm7i87o2qUs5JfHS9w4m3E8TNUOu-QM3-m9TWcdF9EkupuoBCCJaN6xyys7WLh1GrQ",
+        "languages": [
+            "kr",
+            "us",
+            "de"
+        ],
+        "content": {
+            "kr": "고르바초프 서기장님, 이 문을 여십시오! 이 장벽을 허무십시오!",
+            "us": "Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall!",
+            "de": "Herr Gorbatschow, öffnen Sie dieses Tor! Herr Gorbatschow, reißen Sie diese Mauer nieder!"
+        }
+    },
+    {
+        "id": "obama-2008",
+        "title": "2008년 당선 수락 연설",
+        "speaker": "버락 오바마",
+        "year": "2008",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDHwk-xRtJDtslvdCsMQnjaB8JBj-R810r4JBft6ypRi5o2ecNe2ijZ-YlcAO_hF-MMUCgVHS2maOfmZxmkN8gX2Ccb33VyXWof-IdWthPe85eTdvEefiwEJGy--NDsBZZEe8QFIZKyDy7mXAmNwzKcb-nRsFDvjzOjTad6gbY_GHtPtUtx0FA8jmjgsf6jU-mVPVgadslVYW5TdsVJiH6f8Vp-OVsB3lyIPhn3t1D6phdPHEFOeIVFUyU9bHb4BYgA7XTIgOLCOw8",
+        "languages": [
+            "kr",
+            "us",
+            "es"
+        ],
+        "content": {
+            "kr": "우리는 할 수 있습니다.",
+            "us": "Yes we can.",
+            "es": "Sí se puede."
+        }
+    },
+    {
+        "id": "churchill-1940",
+        "title": "\"We Shall Fight\" 연설",
+        "speaker": "윈스턴 처칠",
+        "year": "1940",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBFzMmpkUxkwmmPJ2_K_NX8gEo5TZso3fzlWbXc2MxFFssDQ1GXfx4W_9r0-NaMC2mXjwTd1wCDSm1iW9ALGUIIm_EBdXjJ6tkgAw_WF2o9LUStDZD-wLWLDCGJJdRr9uGOE6yENC9N-1s8Ldp4iPzWqKS5DVeAavzuMuaKpTKev1_ow4e6s3kD33Ug5bng-Ru4Pk2iUjBb0hHnLjw6G9czSxf_Z9KuFy-Bxs2F7KB5sl4IMUMoTKr7ZJNI9hx2jBFrjT5RgQkxcc0",
+        "languages": [
+            "kr",
+            "gb"
+        ],
+        "content": {
+            "kr": "우리는 해변에서 싸울 것입니다. 우리는 상륙지에서 싸울 것입니다. 우리는 들판과 거리에서 싸울 것입니다. 우리는 언덕에서 싸울 것입니다. 우리는 결코 항복하지 않을 것입니다.",
+            "us": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender."
+        }
+    },
+    {
+        "id": "mandela-1994",
+        "title": "1994년 취임 연설",
+        "speaker": "넬슨 만델라",
+        "year": "1994",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDUzepgSmG01mJEitVKV-rqfj8RUQbnOY12J8aC4Sjtt_9GeE1eKF_WbJzYV6JbW9pFmYV9knkdySYLi750PvGoIi0ImbVImyI39_0PFsJepwNAkevJCJtM7tAvzHCEHOABwt8E3Pl9xO-hLxTAiAlFCSkyMEl7s8NCknpad4RUA5e5jHuhZH4OsQhYT-rz7ILxA1xluzHLbnHDHJ86u9TsYzF-7eBT9yHTuNnFA9u647Lgmdjd1VAYqQDeQK2yJ0TtmoK-seTWX6A",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "자유여, 영원하라. 신이여 아프리카를 축복하소서.",
+            "us": "Let freedom reign. God bless Africa."
+        }
+    },
+    {
+        "id": "king-1963",
+        "title": "\"I Have a Dream\" 연설",
+        "speaker": "마틴 루터 킹 주니어",
+        "year": "1963",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBWd_wBORjqmeEJZ4wEQznVuvrvPeMg0egrYbdgzzcwcYCLUv1phEvfILm8TkdC9grvJsDZIYLcqkvocnbgcOryEvDlDHIwBIAxOsJU-L9XzzVgeFGCFD6Kr_fJDl3uA96Z26XGsyU_gdRCwKuo5cj1WYrQhempF9JYsfOJn1Z2E3fcU_2f7puFJ0hFBCAgnQ01mnVLo0r3Cbf1mOfR0cs3Wzz9pP_93l_navp-eaKITpC41crPYLTcnAemafZixafrlACWCRyUSM4",
+        "languages": [
+            "kr",
+            "us",
+            "jp",
+            "fr"
+        ],
+        "content": {
+            "kr": "나에게는 꿈이 있습니다. 언젠가 이 나라가 일어나 '모든 인간은 평등하게 태어났다'는 건국 이념의 참뜻을 실현하리라는 꿈입니다.",
+            "us": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
+            "jp": "私には夢がある。いつの日か、この国が立ち上がり、「すべての人間は平等に造られている」という建国の信条の真の意味を生きるようになるという夢が。",
+            "fr": "J'ai un rêve qu'un jour cette nation se lèvera et vivra la vraie signification de son credo : « Nous tenons ces vérités pour évidentes, que tous les hommes sont créés égaux. »"
+        }
+    },
+    {
+        "id": "kim-2000",
+        "title": "노벨 평화상 수상 연설",
+        "speaker": "김대중",
+        "year": "2000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kim_Dae-jung_official_portrait.jpg/480px-Kim_Dae-jung_official_portrait.jpg",
+        "languages": [
+            "kr",
+            "us",
+            "jp",
+            "cn"
+        ],
+        "content": {
+            "kr": "대한민국은 인권과 민주주의, 그리고 평화의 가치를 굳건히 지켜나갈 것입니다.",
+            "us": "The Republic of Korea will steadfastly uphold the values of human rights, democracy, and peace.",
+            "jp": "大韓民国は人権と民主主義、そして平和の価値を固く守っていきます。",
+            "cn": "大韩民国将坚定不移地维护人权、民主和和平的价值。"
+        }
+    }
+]
