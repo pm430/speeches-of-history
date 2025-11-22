@@ -5,7 +5,7 @@ import Detail from './pages/Detail';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/speeches-of-history">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/speech/:id" element={<Detail />} />
