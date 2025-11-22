@@ -10,34 +10,38 @@ const Home = ({ toggleDarkMode, isDarkMode }) => {
     const [sortBy, setSortBy] = React.useState('all');
     const [selectedLanguage, setSelectedLanguage] = React.useState('all');
 
-    const filteredSpeeches = speeches.filter(speech => {
-        const query = searchQuery.toLowerCase();
-        const matchesSearch = 
-            speech.title.toLowerCase().includes(query) ||
-            speech.speaker.toLowerCase().includes(query) ||
-            speech.year.includes(query);
-        
-        const matchesLanguage = selectedLanguage === 'all' || speech.languages.includes(selectedLanguage);
-        
-        return matchesSearch && matchesLanguage;
-    });
+    const filteredSpeeches = React.useMemo(() => {
+        return speeches.filter(speech => {
+            const query = searchQuery.toLowerCase();
+            const matchesSearch =
+                speech.title.toLowerCase().includes(query) ||
+                speech.speaker.toLowerCase().includes(query) ||
+                speech.year.includes(query);
 
-    const sortedSpeeches = [...filteredSpeeches].sort((a, b) => {
-        if (sortBy === 'year-asc') {
-            return parseInt(a.year) - parseInt(b.year);
-        } else if (sortBy === 'year-desc') {
-            return parseInt(b.year) - parseInt(a.year);
-        } else if (sortBy === 'popular') {
-            return b.languages.length - a.languages.length;
-        }
-        return 0;
-    });
+            const matchesLanguage = selectedLanguage === 'all' || speech.languages.includes(selectedLanguage);
+
+            return matchesSearch && matchesLanguage;
+        });
+    }, [searchQuery, selectedLanguage]);
+
+    const sortedSpeeches = React.useMemo(() => {
+        return [...filteredSpeeches].sort((a, b) => {
+            if (sortBy === 'year-asc') {
+                return parseInt(a.year) - parseInt(b.year);
+            } else if (sortBy === 'year-desc') {
+                return parseInt(b.year) - parseInt(a.year);
+            } else if (sortBy === 'popular') {
+                return b.languages.length - a.languages.length;
+            }
+            return 0;
+        });
+    }, [filteredSpeeches, sortBy]);
 
     return (
         <Layout toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}>
             <SearchBar value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
-            <FilterChips 
-                sortBy={sortBy} 
+            <FilterChips
+                sortBy={sortBy}
                 setSortBy={setSortBy}
                 selectedLanguage={selectedLanguage}
                 setSelectedLanguage={setSelectedLanguage}

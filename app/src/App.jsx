@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Detail from './pages/Detail';
+
+const Home = React.lazy(() => import('./pages/Home'));
+const Detail = React.lazy(() => import('./pages/Detail'));
 
 function App() {
   const [isDarkMode, setIsDarkMode] = React.useState(() => {
@@ -27,10 +28,12 @@ function App() {
 
   return (
     <BrowserRouter basename="/speeches-of-history">
-      <Routes>
-        <Route path="/" element={<Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
-        <Route path="/speech/:id" element={<Detail isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
-      </Routes>
+      <Suspense fallback={<div className="flex h-screen items-center justify-center">Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+          <Route path="/speech/:id" element={<Detail isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }

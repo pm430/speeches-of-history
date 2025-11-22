@@ -44,6 +44,7 @@ const SpeechCard = ({ speech }) => {
                     className="h-32 w-full object-cover"
                     src={speech.image}
                     onError={() => setImageError(true)}
+                    loading="lazy"
                 />
             ) : (
                 <div className={`h-32 w-full bg-gradient-to-br ${getGradient(speech.id)} flex items-center justify-center`}>
