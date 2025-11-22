@@ -104,7 +104,7 @@
         "title": "노벨 평화상 수상 연설",
         "speaker": "김대중",
         "year": "2000",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kim_Dae-jung_official_portrait.jpg/480px-Kim_Dae-jung_official_portrait.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kim_Dae-jung_1998.jpg/480px-Kim_Dae-jung_1998.jpg",
         "languages": [
             "kr",
             "us",
@@ -149,18 +149,266 @@
         }
     },
     {
-        "id": "yoon-2022",
-        "title": "제20대 대통령 취임사",
-        "speaker": "윤석열",
-        "year": "2022",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Yoon_Suk-yeol_2021_%28cropped%29.jpg/480px-Yoon_Suk-yeol_2021_%28cropped%29.jpg",
+        "id": "roosevelt-1941",
+        "title": "진주만 공격 연설",
+        "speaker": "프랭클린 D. 루즈벨트",
+        "year": "1941",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FDR_1944_Color_Portrait.jpg/480px-FDR_1944_Color_Portrait.jpg",
         "languages": [
             "kr",
             "us"
         ],
         "content": {
-            "kr": "자유는 보편적 가치입니다. 우리 사회 모든 구성원이 자유 시민이 되어야 합니다.",
-            "us": "Freedom is a universal value. Every member of our society must become a free citizen."
+            "kr": "1941년 12월 7일, 치욕의 날로 기억될 날입니다.",
+            "us": "December 7th, 1941—a date which will live in infamy."
+        }
+    },
+    {
+        "id": "gandhi-1942",
+        "title": "인도 독립 연설",
+        "speaker": "마하트마 간디",
+        "year": "1942",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio_1931.jpg/480px-Mahatma-Gandhi%2C_studio_1931.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "우리는 인도를 자유롭게 하거나, 그 시도 과정에서 죽을 것입니다.",
+            "us": "We shall either free India or die in the attempt."
+        }
+    },
+    {
+        "id": "degaulle-1940",
+        "title": "프랑스 저항 연설",
+        "speaker": "샤를 드골",
+        "year": "1940",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/General_de_Gaulle_%281942%29.jpg/480px-General_de_Gaulle_%281942%29.jpg",
+        "languages": [
+            "kr",
+            "fr",
+            "us"
+        ],
+        "content": {
+            "kr": "프랑스는 전투에서 졌지만, 전쟁에서 진 것은 아닙니다!",
+            "fr": "La France a perdu une bataille! Mais la France n'a pas perdu la guerre!",
+            "us": "France has lost a battle! But France has not lost the war!"
+        }
+    },
+    {
+        "id": "roh-2004",
+        "title": "탄핵 반대 연설",
+        "speaker": "노무현",
+        "year": "2004",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Roh_Moo-hyun_presidential_portrait.jpg/480px-Roh_Moo-hyun_presidential_portrait.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "부끄러운 줄 알아야지!",
+            "us": "You should be ashamed of yourselves!"
+        }
+    },
+    {
+        "id": "kim-young-sam-1993",
+        "title": "문민정부 출범 연설",
+        "speaker": "김영삼",
+        "year": "1993",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kim_Young-sam_presidential_portrait.jpg/480px-Kim_Young-sam_presidential_portrait.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "오늘 우리는, 그렇게도 애타게 기다리던 문민 민주주의의 시대를 열기 위하여 이 자리에 모였습니다.",
+            "us": "Today, we gather here to open the era of civilian democracy that we have so eagerly awaited."
+        }
+    },
+    {
+        "id": "kim-gu-1947",
+        "title": "나의 소원",
+        "speaker": "백범 김구",
+        "year": "1947",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Kim_Gu_1940s.jpg/480px-Kim_Gu_1940s.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "나는 우리나라가 세계에서 가장 아름다운 나라가 되기를 원한다. 가장 부강한 나라가 되기를 원하는 것은 아니다.",
+            "us": "I want our country to be the most beautiful nation in the world. I do not want it to be the most powerful nation."
+        }
+    },
+    {
+        "id": "ahn-jung-geun-1910",
+        "title": "최후 진술",
+        "speaker": "안중근",
+        "year": "1910",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ahn_Jung-geun.jpg/480px-Ahn_Jung-geun.jpg",
+        "languages": [
+            "kr",
+            "us",
+            "jp"
+        ],
+        "content": {
+            "kr": "나는 대한 독립을 위해 죽는 것이니, 비록 죽더라도 영광스럽게 생각한다.",
+            "us": "I die for the independence of Korea, so I consider it glorious even if I die.",
+            "jp": "私は韓国の独立のために死ぬのであるから、たとえ死んでも光栄に思う。"
+        }
+    },
+    {
+        "id": "yu-gwan-sun-1919",
+        "title": "독립 만세",
+        "speaker": "유관순",
+        "year": "1919",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Yu_Gwan-sun.jpg/480px-Yu_Gwan-sun.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "나라에 바칠 목숨이 오직 하나밖에 없는 것만이 이 소녀의 유일한 슬픔입니다.",
+            "us": "My only sorrow is that I have but one life to give for my country."
+        }
+    },
+    {
+        "id": "shin-chae-ho-1923",
+        "title": "조선혁명선언",
+        "speaker": "신채호",
+        "year": "1923",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Shin_Chae-ho.jpg/480px-Shin_Chae-ho.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "강도 일본이 우리의 국호를 없이 하며, 우리의 정권을 빼앗으며, 우리의 생존적 필요조건을 다 박탈하였다.",
+            "us": "Robber Japan has annihilated our national title, seized our political power, and deprived us of all necessary conditions for survival."
+        }
+    },
+    {
+        "id": "lyuh-woon-hyung-1945",
+        "title": "건국준비위원회 발족",
+        "speaker": "여운형",
+        "year": "1945",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lyuh_Woon-hyung.jpg/480px-Lyuh_Woon-hyung.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "이제 우리는 우리 힘으로 우리의 나라를 세워야 합니다.",
+            "us": "Now we must build our own country with our own strength."
+        }
+    },
+    {
+        "id": "thatcher-1980",
+        "title": "철의 여인 연설",
+        "speaker": "마가렛 대처",
+        "year": "1980",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Margaret_Thatcher.png/480px-Margaret_Thatcher.png",
+        "languages": [
+            "kr",
+            "gb"
+        ],
+        "content": {
+            "kr": "방향을 돌리고 싶으면 당신들이나 돌리세요. 이 여자는 돌리지 않습니다.",
+            "gb": "You turn if you want to. The lady's not for turning."
+        }
+    },
+    {
+        "id": "gorbachev-1991",
+        "title": "소련 해체 연설",
+        "speaker": "미하일 고르바초프",
+        "year": "1991",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Mikhail_Gorbachev_1987.jpg/480px-Mikhail_Gorbachev_1987.jpg",
+        "languages": [
+            "kr",
+            "us",
+            "ru"
+        ],
+        "content": {
+            "kr": "우리는 이제 새로운 세상에 살고 있습니다.",
+            "us": "We are now living in a new world.",
+            "ru": "Мы живем в новом мире."
+        }
+    },
+    {
+        "id": "suu-kyi-1988",
+        "title": "민주주의 투쟁 연설",
+        "speaker": "아웅산 수치",
+        "year": "1988",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Aung_San_Suu_Kyi_12_March_2012_%28cropped%29.jpg/480px-Aung_San_Suu_Kyi_12_March_2012_%28cropped%29.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "공포로부터의 자유가 진정한 자유입니다.",
+            "us": "Freedom from fear is the only true freedom."
+        }
+    },
+    {
+        "id": "havel-1990",
+        "title": "벨벳 혁명 신년사",
+        "speaker": "바츨라프 하벨",
+        "year": "1990",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vaclav_Havel_IMF.jpg/480px-Vaclav_Havel_IMF.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "우리는 도덕적으로 병든 사회에 살고 있습니다. 우리는 서로에게 익숙해졌기 때문에 병들었습니다.",
+            "us": "We live in a morally contaminated environment. We fell ill because we became used to saying something different from what we thought."
+        }
+    },
+    {
+        "id": "moon-2017",
+        "title": "제19대 대통령 취임사",
+        "speaker": "문재인",
+        "year": "2017",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Moon_Jae-in_presidential_portrait.jpg/480px-Moon_Jae-in_presidential_portrait.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "기회는 평등할 것입니다. 과정은 공정할 것입니다. 결과는 정의로울 것입니다.",
+            "us": "Opportunities will be equal. The process will be fair. The result will be just."
+        }
+    },
+    {
+        "id": "biden-2021",
+        "title": "민주주의의 승리",
+        "speaker": "조 바이든",
+        "year": "2021",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/480px-Joe_Biden_presidential_portrait.jpg",
+        "languages": [
+            "kr",
+            "us"
+        ],
+        "content": {
+            "kr": "민주주의가 승리했습니다.",
+            "us": "Democracy has prevailed."
+        }
+    },
+    {
+        "id": "merkel-2015",
+        "title": "난민 위기 연설",
+        "speaker": "앙겔라 메르켈",
+        "year": "2015",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Besuch_Bundeskanzlerin_Angela_Merkel_im_Landtag_Nordrhein-Westfalen-1806.jpg/480px-Besuch_Bundeskanzlerin_Angela_Merkel_im_Landtag_Nordrhein-Westfalen-1806.jpg",
+        "languages": [
+            "kr",
+            "de",
+            "us"
+        ],
+        "content": {
+            "kr": "우리는 해낼 수 있습니다.",
+            "de": "Wir schaffen das.",
+            "us": "We can do this."
         }
     }
 ]

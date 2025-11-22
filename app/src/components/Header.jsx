@@ -16,8 +16,8 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
                     </button>
                 </div>
             </div>
-            <h1 className="text-3xl font-bold tracking-tight px-0 text-left pt-2">연설의 순간들</h1>
-            <p className="text-base font-normal leading-normal pt-1 px-0">세계 지도자들의 연설문 핵심 문장을 다양한 언어로 만나보세요.</p>
+            <h1 className="text-3xl font-bold tracking-tight px-0 text-left pt-2">역사적인 연설들</h1>
+            <p className="text-base font-normal leading-normal pt-1 px-0">세상을 바꾼 위대한 연설문들의 핵심 문장을 다양한 언어로 만나보세요.</p>
         </header>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBar = ({ value, onChange }) => {
     return (
-        <div className="px-4 py-3 sticky top-[156px] z-10 bg-background-light dark:bg-background-dark">
+        <div className="px-4 py-3 sticky top-[120px] z-20 bg-background-light dark:bg-background-dark shadow-sm">
             <label className="flex flex-col min-w-40 h-12 w-full">
                 <div className="flex w-full flex-1 items-stretch rounded-lg h-full">
                     <div className="text-slate-500 dark:text-slate-400 flex border-none bg-border-light dark:bg-border-dark items-center justify-center pl-4 rounded-l-lg border-r-0">
