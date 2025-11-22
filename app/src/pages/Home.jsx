@@ -18,7 +18,10 @@ const Home = ({ toggleDarkMode, isDarkMode }) => {
                 speech.speaker.toLowerCase().includes(query) ||
                 speech.year.includes(query);
 
-            const matchesLanguage = selectedLanguage === 'all' || speech.languages.includes(selectedLanguage);
+            const matchesLanguage = selectedLanguage === 'all' ||
+                (selectedLanguage === 'en'
+                    ? (speech.languages.includes('us') || speech.languages.includes('gb'))
+                    : speech.languages.includes(selectedLanguage));
 
             return matchesSearch && matchesLanguage;
         });
