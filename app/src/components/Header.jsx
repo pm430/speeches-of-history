@@ -3,10 +3,7 @@ import React from 'react';
 const Header = ({ toggleDarkMode, isDarkMode }) => {
     return (
         <header className="p-4 pb-2 bg-background-light dark:bg-background-dark sticky top-0 z-10">
-            <div className="flex items-center h-12 justify-between">
-                <div className="flex size-12 shrink-0 items-center justify-start text-text-light dark:text-text-dark">
-                    <span className="material-symbols-outlined text-3xl">menu</span>
-                </div>
+            <div className="flex items-center h-12 justify-end">
                 <div className="flex items-center gap-2">
                     <button
                         onClick={toggleDarkMode}
