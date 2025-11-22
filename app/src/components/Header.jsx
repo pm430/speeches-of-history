@@ -14,11 +14,6 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
                             {isDarkMode ? 'light_mode' : 'dark_mode'}
                         </span>
                     </button>
-                    <img
-                        alt="User profile picture"
-                        className="h-8 w-8 rounded-full object-cover"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWxFrwvJNubkioPWlCgDE3ygXGn1fNczt2RmavVhnTzISrMyDFqeImR4JSHWSP8-HRpxBtgT0_8girnEDZTX_CXKqKcZyOJIWtTTikDo_3BlNOCWpVCe69nt39cFnFMxjyb-7tK9q28JeCiic_hyOX_u_YKrc1PnoVhhfk-vFSkGb-4q3NL9eniSd4BJinY385N_xjAr-tqHspWmE1Meu7DkivNfDgjPcpPe5DcrCMZM5VHUQ_a_VCZ81lndYTs--HTUR2R_tAjkM"
-                    />
                 </div>
             </div>
             <h1 className="text-3xl font-bold tracking-tight px-0 text-left pt-2">연설의 순간들</h1>

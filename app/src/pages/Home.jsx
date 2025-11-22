@@ -5,17 +5,21 @@ import FilterChips from '../components/FilterChips';
 import SpeechCard from '../components/SpeechCard';
 import speeches from '../data/speeches.json';
 
-const Home = ({ toggleDarkMode, isDarkMode }) => {
+const const Home = ({ toggleDarkMode, isDarkMode }) => {
     const [searchQuery, setSearchQuery] = React.useState('');
     const [sortBy, setSortBy] = React.useState('all');
+    const [selectedLanguage, setSelectedLanguage] = React.useState('all');
 
     const filteredSpeeches = speeches.filter(speech => {
         const query = searchQuery.toLowerCase();
-        return (
+        const matchesSearch = 
             speech.title.toLowerCase().includes(query) ||
             speech.speaker.toLowerCase().includes(query) ||
-            speech.year.includes(query)
-        );
+            speech.year.includes(query);
+        
+        const matchesLanguage = selectedLanguage === 'all' || speech.languages.includes(selectedLanguage);
+        
+        return matchesSearch && matchesLanguage;
     });
 
     const sortedSpeeches = [...filteredSpeeches].sort((a, b) => {
@@ -32,6 +36,20 @@ const Home = ({ toggleDarkMode, isDarkMode }) => {
     return (
         <Layout toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}>
             <SearchBar value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+            <FilterChips 
+                sortBy={sortBy} 
+                setSortBy={setSortBy}
+                selectedLanguage={selectedLanguage}
+                setSelectedLanguage={setSelectedLanguage}
+            />
+            <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
+                {sortedSpeeches.map(speech => (
+                    <SpeechCard key={speech.id} speech={speech} />
+                ))}
+            </main>
+        </Layout>
+    );
+} => setSearchQuery(e.target.value)} />
             <FilterChips sortBy={sortBy} setSortBy={setSortBy} />
             <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
                 {sortedSpeeches.map(speech => (
