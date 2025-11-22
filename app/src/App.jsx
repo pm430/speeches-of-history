@@ -33,11 +33,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-} />
-        <Route path="/speech/:id" element={<Detail />} />
-      </Routes>
-    </BrowserRouter>
-  );
 }
 
 export default App;
