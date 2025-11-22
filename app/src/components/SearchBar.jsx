@@ -10,7 +10,7 @@ const SearchBar = ({ value, onChange }) => {
                     </div>
                     <input
                         className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-r-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-0 border-none bg-border-light dark:bg-border-dark h-full placeholder:text-slate-500 dark:placeholder:text-slate-400 px-4 pl-2 text-base font-normal leading-normal"
-                        placeholder="대통령, 연도, 키워드로 검색"
+                        placeholder="연설자, 연도, 제목으로 검색"
                         value={value}
                         onChange={onChange}
                     />
