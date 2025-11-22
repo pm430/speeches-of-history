@@ -5,7 +5,7 @@ import FilterChips from '../components/FilterChips';
 import SpeechCard from '../components/SpeechCard';
 import speeches from '../data/speeches.json';
 
-const const Home = ({ toggleDarkMode, isDarkMode }) => {
+const Home = ({ toggleDarkMode, isDarkMode }) => {
     const [searchQuery, setSearchQuery] = React.useState('');
     const [sortBy, setSortBy] = React.useState('all');
     const [selectedLanguage, setSelectedLanguage] = React.useState('all');
@@ -42,15 +42,6 @@ const const Home = ({ toggleDarkMode, isDarkMode }) => {
                 selectedLanguage={selectedLanguage}
                 setSelectedLanguage={setSelectedLanguage}
             />
-            <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
-                {sortedSpeeches.map(speech => (
-                    <SpeechCard key={speech.id} speech={speech} />
-                ))}
-            </main>
-        </Layout>
-    );
-} => setSearchQuery(e.target.value)} />
-            <FilterChips sortBy={sortBy} setSortBy={setSortBy} />
             <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
                 {sortedSpeeches.map(speech => (
                     <SpeechCard key={speech.id} speech={speech} />
