@@ -5,8 +5,9 @@ import FilterChips from '../components/FilterChips';
 import SpeechCard from '../components/SpeechCard';
 import speeches from '../data/speeches.json';
 
-const Home = () => {
-    const [searchQuery, setSearchQuery] = useState('');
+const Home = ({ toggleDarkMode, isDarkMode }) => {
+    const [searchQuery, setSearchQuery] = React.useState('');
+    const [sortBy, setSortBy] = React.useState('all');
 
     const filteredSpeeches = speeches.filter(speech => {
         const query = searchQuery.toLowerCase();
@@ -17,12 +18,23 @@ const Home = () => {
         );
     });
 
+    const sortedSpeeches = [...filteredSpeeches].sort((a, b) => {
+        if (sortBy === 'year-asc') {
+            return parseInt(a.year) - parseInt(b.year);
+        } else if (sortBy === 'year-desc') {
+            return parseInt(b.year) - parseInt(a.year);
+        } else if (sortBy === 'popular') {
+            return b.languages.length - a.languages.length;
+        }
+        return 0;
+    });
+
     return (
-        <Layout>
+        <Layout toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}>
             <SearchBar value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
-            <FilterChips />
-            <main className="grid grid-cols-2 gap-4 p-4">
-                {filteredSpeeches.map(speech => (
+            <FilterChips sortBy={sortBy} setSortBy={setSortBy} />
+            <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
+                {sortedSpeeches.map(speech => (
                     <SpeechCard key={speech.id} speech={speech} />
                 ))}
             </main>

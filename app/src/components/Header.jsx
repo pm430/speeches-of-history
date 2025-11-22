@@ -1,13 +1,22 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ toggleDarkMode, isDarkMode }) => {
     return (
         <header className="p-4 pb-2 bg-background-light dark:bg-background-dark sticky top-0 z-10">
             <div className="flex items-center h-12 justify-between">
                 <div className="flex size-12 shrink-0 items-center justify-start text-text-light dark:text-text-dark">
                     <span className="material-symbols-outlined text-3xl">menu</span>
                 </div>
-                <div className="flex size-12 shrink-0 items-center justify-end">
+                <div className="flex items-center gap-2">
+                    <button
+                        onClick={toggleDarkMode}
+                        className="flex size-10 shrink-0 items-center justify-center rounded-full text-text-light dark:text-text-dark hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                        aria-label="Toggle dark mode"
+                    >
+                        <span className="material-symbols-outlined text-2xl">
+                            {isDarkMode ? 'light_mode' : 'dark_mode'}
+                        </span>
+                    </button>
                     <img
                         alt="User profile picture"
                         className="h-8 w-8 rounded-full object-cover"
